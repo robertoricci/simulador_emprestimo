@@ -1,7 +1,11 @@
 
 #Importando Pacotes 
+import pandas as pd     #Biblioteca de Funções de Manipulação de Dados
+import seaborn as sns   #Biblioteca de Funções de Visualização Gráfica
+import warnings
 import pickle
 import streamlit as st
+warnings.filterwarnings("ignore")
  
 # Carregando a Máquina Preditiva
 pickle_in = open('maquina_preditiva.pkl', 'rb') 
